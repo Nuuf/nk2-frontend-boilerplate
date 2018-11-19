@@ -1,6 +1,6 @@
 {
   "name": "nk2-frontend-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "none",
   "main": "./dist/index.js",
   "devDependencies": {
@@ -21,7 +21,7 @@
     "webpack-dev-server": "^3.1.8"
   },
   "dependencies": {
-    "@nuuf/nk2-frontend": "^1.1.1"
+    "@nuuf/nk2-frontend": "^1.2.1"
   },
   "scripts": {
     "build": "webpack --env production --mode production",

@@ -1,4 +1,4 @@
-import { Stage2D, Container2D, Vector2D, Camera2D, Sprite, CanvasManager } from '@nuuf/nk2-frontend';
+import { Stage2D, VisualContainer2D, Vector2D, Camera2D, Sprite, CanvasManager } from '@nuuf/nk2-frontend';
 
 import '../style/default.css';
 
@@ -16,9 +16,9 @@ Sprite.BUILD_DEFAULT_TEXTURE( () => {
     halt: false
   };
   const stage = new Stage2D( conf );
-  const root = new Container2D( 0, 0 );
+  const root = new VisualContainer2D( 0, 0 );
   const camera = new Camera2D( new Vector2D( 0, 0 ), { position: new Vector2D( 0, 0 ) } );
-  const scene = new Container2D( HW, HH );
+  const scene = new VisualContainer2D( HW, HH );
   const sprite = new Sprite( 0, 0 );
   
   document.body.appendChild( conf.canvas );
@@ -26,6 +26,7 @@ Sprite.BUILD_DEFAULT_TEXTURE( () => {
   camera.force.SetSame( 0.1 );
 
   sprite.anchor.SetSame( 0.5 );
+  sprite.UpdateTextureTransform();
 
   stage
     .AddChild( root )
