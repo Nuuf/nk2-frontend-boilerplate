@@ -28,7 +28,7 @@
     "start": "webpack-dev-server --env development --mode development",
     "clear-dist": "rimraf dist",
     "ce": "rimraf dist",
-    "be": "npm run ce && npm run build",
+    "be": "yarn run ce && yarn run build",
     "lint-f": "eslint src --fix",
     "lint": "eslint src"
   },
