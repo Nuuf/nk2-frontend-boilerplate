@@ -21,7 +21,7 @@
     "webpack-dev-server": "^3.1.8"
   },
   "dependencies": {
-    "@nuuf/nk2-frontend": "^2.1.0"
+    "@nuuf/nk2-frontend": "^2.2.0"
   },
   "scripts": {
     "build": "webpack --env production --mode production",
