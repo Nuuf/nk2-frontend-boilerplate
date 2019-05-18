@@ -518,10 +518,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@nuuf/nk2-frontend@^2.2.1":
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/@nuuf/nk2-frontend/-/nk2-frontend-2.2.1.tgz#09e60fbcec17fbbdb4adc2075ae2e1bfaef18624"
-  integrity sha512-/yxqamp9o3orwtGoykduLwMbJpQGeo5aKJfBsKKxDs3MdExAv+4Ng/vMIrll9PKt+15PEd4VINPyL1DL98zxMg==
+"@nuuf/nk2-frontend@^2.2.2":
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/@nuuf/nk2-frontend/-/nk2-frontend-2.2.2.tgz#ddbb2781db0489e0101e4024d4aeb23f6cee2c3f"
+  integrity sha512-3PuYCt1JxFKCm4IGZrP/wSc7DBQNqbCnMicpunqTSkl3F58vtrh5nB4purWcVWZUDOo4NPOUSXPJZ6f/2JGq5Q==
 
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
